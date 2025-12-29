@@ -1,5 +1,5 @@
 # 3D-Spatial-Reconstruction-Project
-Using a TI MSP432e401Y RISC-V microcontroller to control a Time of Flight sensor and stepper motor, distance scans can be taken of the surrounding space, then relayed to a MATLAB script to create a 3D map of the area.
+Using a TI MSP432e401Y microcontroller to control a Time of Flight sensor and stepper motor, distance scans can be taken of the surrounding space, then relayed to a MATLAB script to create a 3D map of the area.
 
 This is an embedded scanning system capable of recreating an approximate 3D reconstruction of rooms or enclosed areas with 0.1 mm accuracy. It is similar in principle to a LiDAR system, using a time of flight sensor mounted on a stepper motor to take multiple distance measurements across a full 360 degree rotation. Measurement data is transmitted from the sensor to the microcontroller using I2C communication protocols. Each measurement contains the necessary measurements for the YZ Plane, whilst taking multiple scans produces the necessary X-axis measurements.
 
